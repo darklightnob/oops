@@ -2,10 +2,11 @@
 using namespace std;
 
 class complex{
-    private:
+    
+    public:
+   
         int real;
         int img;
-    public:
 
         complex(){
             real=0;
@@ -24,9 +25,7 @@ class complex{
             return temp;
         }
         
-        // Correct friend function declaration
-        friend void operator<<(ostream& os,complex c);
-
+      
 };
 
 // Friend function implementation
